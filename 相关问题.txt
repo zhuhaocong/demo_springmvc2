@@ -1,0 +1,4 @@
+SpringMvc 拦截器 拦截路径配置
+拦截器执行顺序：先配置先执行
+拦截器中方法执行顺序：preHandle---->目标资源---->postHandle---->afterCompletion
+postHandle方法中可以对Controller处理后的ModelAndView进行操作
